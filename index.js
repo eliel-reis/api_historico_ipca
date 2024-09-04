@@ -52,5 +52,6 @@ app.get("/historicoIPCA/:id", (req, res) => {
 }); 
 
 app.listen(8080, () => {
-    console.log("Aplicação Node Iniciada...");
+    const data = new Date();
+    console.log("Aplicação Node Iniciada... " + data);
 });
